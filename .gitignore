@@ -1,0 +1,10 @@
+# 忽略本地测试产物与临时文件
+_shots/
+_backup_*.json
+*.local.js
+.DS_Store
+Thumbs.db
+
+# 若你把真实云服务凭据写进了配置，请用「本地未跟踪的覆盖文件」方式，
+# 或在提交前确认 app.js 中的 PUBLIC_CONFIG 已替换为占位值
+node_modules/
